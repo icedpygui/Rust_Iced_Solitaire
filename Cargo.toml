@@ -1,0 +1,10 @@
+[package]
+name = "Rust_Iced_Solitaire"
+version = "0.1.0"
+authors = ["Charles Ray<icedpygui@gmail.com>"]
+edition = "2021"
+publish = false
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", rev= "8fb939b", features = ["advanced", "canvas", "debug", "image"] }
+rand = "0.8.3"
